@@ -1,0 +1,160 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include <stdio.h>
+#include <stdlib.h>
+#include <windows.h>
+
+	//int main()
+	//{
+	//	int i, max, a, b, d;
+	//	int arr[] = { 0,10,2,3,4,5,6,7,8,9 };
+	//	int sz = sizeof(arr);/// sizeof(arr[0])-1;
+	//	for (i = 1;i <= sz;i++)
+	//	{
+
+	//		if (arr[i] < arr[i + 1])
+	//			b = arr[i +1];
+	//		else
+	//			b = arr[i];
+
+	//	}
+	//	printf("%d\n", b);
+	//	return 0;
+	//}
+//int main()
+//{
+//	int a,i,n;
+//	scanf("%d", &a);
+//	
+//		if (a == 6)
+//		{
+//			for (i = 1;i <= 6;i++)
+//			{
+//				for (n = 1;n <= i;n++)
+//				{
+//					printf("%d ", i);
+//					Sleep(6000);
+//				}
+//				system("cls");
+//				
+//			}
+//		}
+//	
+//	return 0;
+//}
+//int main()失败
+//{
+//	int a,i;
+//	int n = 1;
+//	scanf("%d", &a);
+//	if (a == 3)
+//	{
+//		for (i=1;i <= 6;i++)
+//		{
+//			printf("%d ", i);
+//			for (n = 1;n <= i;n++)
+//			{
+//				printf("\n");
+//			}
+//			
+//		}
+//	}
+//	return 0;
+//}
+//int main()(从左向右)
+//{
+//	int a,b,i;
+//	for (a = 0;a <= 3;a++)
+//	{
+//		system("cls");
+//		for (i = 1;i <= a;i++)
+//		{
+//			printf(" ");
+//
+//		}
+//		printf(" O\n");
+//		for (i = 1;i <= a;i++)
+//		{
+//			printf(" ");
+//
+//		}
+//		printf(" H\n");
+//		for (i = 1;i <= a;i++)
+//		{
+//			printf(" ");
+//
+//		}
+//		printf("I I\n");
+//		Sleep(2000);
+//	}
+//	return 0;
+//}
+//int main()//从右向左
+//{
+//	int a, b, i;
+//	for (a = 5;a >=0;a--)
+//	{
+//		system("cls");
+//		for (i = 1;i <= a;i++)
+//		{
+//			printf(" ");
+//
+//		}
+//		printf(" O\n");
+//		for (i = 1;i <= a;i++)
+//		{
+//			printf(" ");
+//
+//		}
+//		printf(" H\n");
+//		for (i = 1;i <= a;i++)
+//		{
+//			printf(" ");
+//
+//		}
+//		printf("I I\n");
+//		Sleep(2000);
+//	}
+//	return 0;
+//}
+int main()
+{
+	int i,a,b;
+	for (i = 1;i <= 9;i++)
+	{
+		//b = 4;
+		//if (i % 2 == 1)
+		//	//while (a<=i)
+		//	//{
+		//	//	printf("*");
+		//	//	a++;
+		//	//}
+		//	
+		//	while (b >= 0)
+		//	{
+		//		printf(" ");
+		//		b--;
+		//	}
+		if (i % 2 == 1)
+			for (a = 1;a <= i;a++)
+			{
+				printf("*");
+			}
+			printf("\n");
+	}
+	printf("\n");
+	for (i = 7;i >=0;i--)
+	{
+		if (i % 2 == 1)
+			//while (a <= i)
+			//{
+			//	printf("*");
+			//	a++;
+			//}
+			for (a = 1;a <= i;a++)
+			{
+				printf("*");
+			}
+		printf("\n");
+	}
+	return 0;
+}
